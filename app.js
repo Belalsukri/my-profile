@@ -11,8 +11,7 @@ app.set('views',__dirname + '/views');
 const port = process.env.PORT || 4000
 
 app.get('/',(req,res)=>{
-          res.render('home')
-     
+          res.render('index') 
   })
 
 app.listen(port,()=>{
