@@ -1,0 +1,27 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belalsukri/my-profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belalsukri/my-profile/issues"
+  },
+  "homepage": "https://github.com/Belalsukri/my-profile#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.0",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "nodemailer": "^6.4.10",
+    "ejs": "^3.1.3"
+  }
+}

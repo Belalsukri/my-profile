@@ -1,0 +1,112 @@
+
+  
+  
+  
+  .d {
+    text-align: center;
+    padding: 65px;  
+    }
+  
+  #welcome-section {  
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      transform: translate(-50%, 25%);
+     
+          }
+  
+    .prgr {
+        font-size: 1.5em;
+    }       
+  
+  /*social buttons*/
+  #scbtn ul {
+      display: flex;
+      position: absolute;
+      
+      left: 50%;
+      height: 150px;
+      transform: translate(-50%, 20%);
+    }
+  
+  #scbtn ul li {
+      list-style: none;
+      color: #0f0f0f;
+      }
+  
+  #scbtn ul li a {
+      width: 50px;
+      height: 50px;
+      background: #f5f5f5;
+      text-align: center;
+      line-height: 44px;
+      font-size: 25px;
+      margin: 0 10px;
+      display: block;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+      border: 3px solid #f5f5f5; 
+      z-index: 1;
+              }
+  
+  #scbtn ul li a .fa {
+      position: relative;
+      color: #5d4cca;
+      transition: .5s;
+  }
+  
+  #scbtn ul li a:hover .fa {
+      color: #f5f5f5;
+      transform: rotateY(360deg);
+  }
+  
+  #scbtn ul li a:before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #a32bb8;
+      transition: .5s;
+      z-index: 2;
+      }
+  
+  #scbtn ul li a:hover:before {
+      top: 0;
+      }
+
+      .brand {
+        font-size: 16px;
+        line-height: 18px;
+        float: left;
+      
+        color: #fff;
+        width: 550px;
+        height: 40px;
+        text-align: left;
+      }
+
+     
+      .backgrund-1{
+         background-image: url(/img/laptob-1.jpg);
+         background-size: 100% 120%;
+         background-repeat: no-repeat;
+         background-position-x: center;
+      }
+      .hof{
+        color:#5d4cca;
+    }
+    .hof:hover{
+      color:#9c27b0;
+    }
+    .font-contact{
+        color:#5d4cca;
+    }
+    .fotr{
+        position: relative;
+       top: 100px;
+       margin-left: 55px;
+       color: #5d4cca;
+    }
