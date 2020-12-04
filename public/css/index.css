@@ -95,6 +95,12 @@
          background-repeat: no-repeat;
          background-position-x: center;
       }
+      .backgrund-2{
+        background-image: url(/public/img/laptob-1.jpg);
+        background-size: 100% 120%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+     }
       .hof{
         color:#5d4cca;
     }
