@@ -274,7 +274,8 @@
       border-left: 2px solid#767785;
     }
     .mobile-wrap-1{
-      background: url(/public/img/mob-1-removebg-preview.png) center no-repeat;
+      /* background: url(/public/img/mob-1-removebg-preview.png) center no-repeat; */
+      background: linear-gradient(to bottom, rgb(9 18 247 / 62%), rgb(226 26 211 / 67%));
       margin: auto;
       height: 260px;
       width: 190px;
