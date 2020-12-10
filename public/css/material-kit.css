@@ -1127,7 +1127,7 @@ pre code {
 .col-xl,
 .col-xl-auto {
   position: relative;
-  width: 100%;
+  
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
@@ -11659,7 +11659,7 @@ label {
 .main-raised {
   margin: -60px 30px 0px;
   border-radius: 6px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 24px 2px rgb(251 251 251 / 12%), 0 6px 30px 5px rgb(72 101 243 / 34%), 0 8px 10px -5px rgb(81 209 243 / 40%);
 }
 
 /*           Animations              */
@@ -14668,9 +14668,9 @@ textarea {
   border-radius: 3px;
   padding: 0.625rem 0;
   margin-bottom: 20px;
-  color: #555;
-  background-color: #ffffff !important;
-  box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  background-color: #3f4148 !important;
+  box-shadow: 0 4px 18px 0px rgb(253 253 253 / 12%), 0 7px 10px -5px rgb(112 167 241 / 39%);
 }
 
 .navbar .dropdown-item:hover,
@@ -17022,7 +17022,7 @@ footer .pull-center {
   background: #f3f4fb;
   width: 100%;
   
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 18px 0px rgb(253 253 253 / 12%), 0 7px 10px -5px rgb(44 157 247 / 43%);
 }
 
 .card .card-category:not([class*="text-"]) {
@@ -17131,6 +17131,7 @@ footer .pull-center {
   margin-right: 15px;
   margin-top: -30px;
   border-radius: 6px;
+  box-shadow: 0 4px 18px 0px rgb(253 253 253 / 12%), 0 7px 10px -5px rgb(146 44 247 / 43%);
 }
 
 .card .card-header.card-header-image a {

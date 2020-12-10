@@ -780,6 +780,34 @@
   -moz-animation-name: Floatingy;
   float: left;
 }
+body{
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: ease-in-out;
+  -webkit-animation-name: Body;
+  -moz-animation-name: Body;
+  
+}
+body{
+  -webkit-animation-duration: 15s;
+  -moz-animation-duration: 15s;
+  -webkit-animation-name: Body;
+  -moz-animation-name: Body;
+}
+@-webkit-keyframes Body {
+  from {
+   background-color:#18191a;
+  }
+
+  65% {
+    background-color:#888a8e;
+  }
+
+  to {
+    background-color:#18191a;
+  }
+}
 
 @-webkit-keyframes Floatingy-1 {
   from {
