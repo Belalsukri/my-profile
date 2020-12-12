@@ -17,17 +17,14 @@ app.get('/',(req,res)=>{
    
           res.render('index') 
   })
-  app.get('/home',(req,res)=>{
-    res.render('home')
-
-})
+  
   app.post('/send',(req,res)=>{
-    console.log(req.body);
+    
     const name = req.body.name
     const email = req.body.email
    
     const message = req.body.message
-    console.log(name,email,message);
+    
     emailSender.getEmailAbout(name, email, message , (ok) => {
         if(ok){
            res.json(1)

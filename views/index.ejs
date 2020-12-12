@@ -521,7 +521,7 @@ $.post('/send',data, function (e) {
     texts.innerHTML = 'Your message was sent successfully';  
     return false;
     }else{
-      alert('error 3')
+      alert('Unfortunately there is something wrong. Please send messages via e-mail belalsukari@gmail.com')
     }
 })
 }
@@ -531,9 +531,9 @@ $.post('/send',data, function (e) {
  
   // &&&&&&&&&&& nameInput  &&&&&&&&&&
  const nameInput = document.querySelector("#validationServer01");
- console.log(nameInput);
+ 
  nameInput.addEventListener("blur",(e)=>{
-    console.log("blur event");
+  
     if (nameInput.value==="" ) {
 const textName=  document.querySelector("#invalid")
 textName.classList.add("text-danger");
@@ -548,9 +548,9 @@ textName.innerHTML = 'Success';
 
   // &&&&&&&&&&& emailInput  &&&&&&&&&&
   const emailInput = document.querySelector("#validationServer02");
- console.log(nameInput);
+
  emailInput.addEventListener("blur",(e)=>{
-    console.log("blur event");
+   
     if (emailInput.value==="" ) {
 const textEmail=  document.querySelector("#invalid-1")
 textEmail.classList.add("text-danger");
@@ -564,7 +564,7 @@ textEmail.innerHTML = 'Name should not be empty';
   })
    // &&&&&&&&&&& messageInput  &&&&&&&&&&
   const messageInput = document.querySelector("#exampleMessage");
- console.log(nameInput);
+ 
  messageInput.addEventListener("blur",(e)=>{  
     if (messageInput.value==="" ) {
 const textMessage=  document.querySelector("#invalid-2")
