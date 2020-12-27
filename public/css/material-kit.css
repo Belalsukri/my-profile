@@ -4418,8 +4418,8 @@ tbody.collapse.show {
   padding: 1rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color:#0000001a;
-  border: 1px solid #0000001c;
+  background-color:#00000000;
+  border: 1px solid #00000000;
   border-radius: 0.25rem;
 }
 
@@ -14681,7 +14681,7 @@ textarea {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #555;
+  background-color: #33abe5;
 }
 
 .navbar.fixed-top {
@@ -14763,6 +14763,7 @@ textarea {
   position: relative;
   width: 22px;
   height: 2px;
+  padding: 2px;
   vertical-align: middle;
   outline: 0;
   display: block;
@@ -18455,8 +18456,7 @@ footer .pull-center {
     position: fixed;
     display: block;
     top: 0px;
-    height: 100vh;
-    width: 230px;
+    width: 150px;
     right: 0;
     margin-right: 0 !important;
     z-index: 1032;
@@ -18596,7 +18596,7 @@ footer .pull-center {
   }
 
   .navbar.navbar-transparent .navbar-toggler .navbar-toggler-icon {
-    background-color: #ffffff;
+    background-color: #32aee8;
   }
 
   #bodyClick {
