@@ -17,7 +17,7 @@
   
     .prgr {
         font-size: 1.5em;
-        color: #4a85de;
+        color: #fff;
         font-style: oblique;
     }       
   
@@ -82,7 +82,7 @@
         background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: 4px #4874cb;
+        -webkit-text-stroke: 4px #fff;
         font-size: 44px;
         font-family: 'Titillium Web', sans-serif;
         font-style: italic;
@@ -96,7 +96,7 @@
         left: 0;
         top: 0;
         z-index: 10;
-        background-image: -webkit-linear-gradient( -5deg,#7447e9 40%, #5c6ce9 55%, #2bbcea 82%, #25c4e9 99%, #02f9e1e0 69%);
+        background-image: -webkit-linear-gradient( -5deg,#484b54 40%, #7e8393 55%, #c7c8d0 82%, #d0d1d6 99%, #000000 69%);
         background-position:-700px 0;
         -webkit-background-clip: text;
         -webkit-text-stroke: 0;
@@ -157,7 +157,7 @@
         font-size: 16px;
         line-height: 18px;
         float: left;
-      
+        margin-top: 10px;
         color: #fff;
         width: 550px;
         height: 40px;
@@ -1038,5 +1038,5 @@
       }
 
       .my-logo{
-        width: 100px;
+        width: 110px;
       }

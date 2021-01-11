@@ -14681,7 +14681,7 @@ textarea {
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
-  background-color: #33abe5;
+  background-color: #ffffff;
 }
 
 .navbar.fixed-top {
@@ -14690,7 +14690,7 @@ textarea {
 
 .navbar .navbar-nav .nav-item .nav-link {
   position: relative;
-  color: #4b8cee;
+  color: #ffffff;
   padding: 0.9375rem;
   font-weight: 400;
   font-size: 14px;
@@ -14792,7 +14792,7 @@ textarea {
   height: 50px;
   font-size: 1.125rem;
   line-height: 30px;
-  padding: 0.625rem 0;
+  margin-top: -7px;
 }
 
 .navbar.bg-primary {
@@ -18291,7 +18291,7 @@ footer .pull-center {
 }
 
 .profile-page .page-header {
-  height: 380px;
+  height: 475px;
   background-position: top center;
 }
 
@@ -18596,7 +18596,7 @@ footer .pull-center {
   }
 
   .navbar.navbar-transparent .navbar-toggler .navbar-toggler-icon {
-    background-color: #4c74d0;
+    background-color: #ffffff;
   }
 
   #bodyClick {
