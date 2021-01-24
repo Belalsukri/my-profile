@@ -25,9 +25,10 @@ app.get('/',(req,res)=>{
     const email = req.body.email
    
     const message = req.body.message
-    
+    console.log(name ,email);
     emailSender.getEmailAbout(name, email, message , (ok) => {
         if(ok){
+            console.log('ok');
            res.json(1)
             
         } else{
