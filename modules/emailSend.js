@@ -1,10 +1,10 @@
 const nodemailer = require('nodemailer');
-
+require("dotenv").config()
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: process.env.SERVIC,
     auth: {
-        user: 'robotcarnode@gmail.com',
-        pass: 'robot123456789'
+        user: process.env.USER,
+        pass: process.env.PASS,
     }
 })
 function getEmailAbout(name,email,message,callback) {
